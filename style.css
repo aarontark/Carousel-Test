@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.904);
+}
+
+.carousel-wrapper {
+    max-width: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-arrow, .right-arrow {
+    width: 5rem;
+    cursor: pointer;
+}
+
+.carousel-img {
+    width: 50rem;
+    border-radius: 1rem;
+}
+
+.right-arrow {
+    transform: rotate(180deg);
+}
